@@ -1,9 +1,9 @@
 import { useState } from "react";
-import LogIn from "./components/Login.jsx";
-import Home from "./components/Home.jsx";
+import LogIn from "./Login.jsx";
+import Home from "./Home.jsx";
 
 export default function App() {
- const [loggedIn, setLoggedIn] = useState(true);
+ const [loggedIn, setLoggedIn] = useState(false);
 
- return <>{loggedIn ? <Home /> : <LogIn setLoggedIn={setLoggedIn} />}</>;
+ return <>{loggedIn ? <Home setLoggedIn={setLoggedIn} /> : <LogIn setLoggedIn={setLoggedIn} />}</>;
 }
