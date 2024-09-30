@@ -36,6 +36,11 @@ export default function Home({ setLoggedIn }) {
      <div className="p-4 hover:bg-gray-900 cursor-pointer" onClick={menuClick}>
       Menu
      </div>
+     <div className="p-4 hover:bg-gray-900 cursor-pointer">
+      <a href="https://t.me/rajdappbot" target="_blank">
+       Telegram
+      </a>
+     </div>
      <div className="p-4 hover:bg-gray-900 cursor-pointer" onClick={aboutClick}>
       About Us
      </div>

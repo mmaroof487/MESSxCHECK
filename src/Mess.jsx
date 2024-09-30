@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react";
-
 export default function Mess() {
  const date = new Date();
  const hour = date.getHours();
